@@ -1,0 +1,43 @@
+body,html {
+  height: 100%;
+}
+
+.background {
+	background-image: url(../../img/koffiebonen.jpg);
+	background-size: 100%;
+	opacity: 90%;
+}
+
+.inhoud {
+	background-color: #4e3b3a;
+}
+
+.producten {
+	background-image: linear-gradient(#4e3b3a, #203236);
+}
+
+.productenimg {
+	background-image: url(../../img/inhoudBG.jpg);
+	width: 80%;
+	min-height: 400px;
+	max-height: 800px;
+}
+
+.contact {
+	background-image: url(../../img/cafe.jpg);
+	background-color: coral;
+}
+
+.hoofdkopje {
+	color: white;
+	font-size: 4em;
+}
+
+.parallax {
+    /* Parallax scroll effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
